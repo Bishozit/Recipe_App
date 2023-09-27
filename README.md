@@ -1,16 +1,5 @@
-# food_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://github.com/Bishozit/Recipe_App/assets/110930138/3d846f65-e47d-4992-82c4-db987c121e89)
+![image](https://github.com/Bishozit/Recipe_App/assets/110930138/3ec38b3e-30b6-435f-a405-9731d00f2aa9)
+![image](https://github.com/Bishozit/Recipe_App/assets/110930138/b295d952-9024-4a41-abce-286f4e16f02d)
+![image](https://github.com/Bishozit/Recipe_App/assets/110930138/a8b9a7b3-a850-4f1b-8593-d32a1df36043)
+![image](https://github.com/Bishozit/Recipe_App/assets/110930138/7fb1b72f-5f9c-4746-8c6f-7c8ad923adda)
