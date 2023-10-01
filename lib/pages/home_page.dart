@@ -92,7 +92,6 @@ class _HomePageState extends State<HomePage> {
                 ),
               ),
             ),
-            
             SliverToBoxAdapter(
               child: SingleChildScrollView(
                 child: Padding(
@@ -116,6 +115,11 @@ class _HomePageState extends State<HomePage> {
                                       Navigator.pushNamed(
                                           context, DetailsPage.routeName,
                                           arguments: [recipe]);
+                                      // Navigator.push(
+                                      //     context,
+                                      //     MaterialPageRoute(
+                                      //         builder: (context) =>
+                                      //              DetailsPage(recipe: recipe)));
                                     },
                                     child: Card(
                                       child: ListTile(
@@ -172,6 +176,11 @@ class _HomePageState extends State<HomePage> {
                                               arguments: [
                                                 meals,
                                               ]);
+                                          // Navigator.push(
+                                          // context,
+                                          // MaterialPageRoute(
+                                          //     builder: (context) =>
+                                          //          DetailsPage(recipe: meals)));
                                         },
                                         child: Column(
                                           children: [

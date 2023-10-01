@@ -10,6 +10,8 @@ List<String> favoriteMeals = [];
 class DetailsPage extends StatefulWidget {
   static const String routeName = '/details';
   const DetailsPage({Key? key}) : super(key: key);
+  // DetailsPage({Key? key, required this.recipe}) : super(key: key);
+  //Meals recipe;
 
   @override
   State<DetailsPage> createState() => _DetailsPageState();

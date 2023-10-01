@@ -24,12 +24,14 @@ class MyApp extends StatelessWidget {
         splitScreenMode: true,
         builder: (context, child) {
           return MaterialApp(
-            theme: ThemeData(appBarTheme: const AppBarTheme(color: AppColors.redAccent)),
+            theme: ThemeData(
+                appBarTheme: const AppBarTheme(color: AppColors.redAccent)),
             debugShowCheckedModeBanner: false,
             home: const HomePage(),
             // home: SplashScreenPage(),
             routes: {
               DetailsPage.routeName: (context) => const DetailsPage(),
+              // FavoritePage.routeName: (context) => const FavoritePage(),
             },
           );
         });

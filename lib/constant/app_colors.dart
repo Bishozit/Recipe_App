@@ -9,7 +9,4 @@ class AppColors {
  static const black = Colors.black12;
  static const greenAccent = Colors.greenAccent;
  static const red = Colors.red;
- 
-
-
 }
