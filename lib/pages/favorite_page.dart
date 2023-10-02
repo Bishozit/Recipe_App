@@ -40,6 +40,7 @@ class _FavoritePageState extends State<FavoritePage> {
                   tileColor: AppColors.black,
                   title:
                       Text("${homePageProvider.favoriteMeals[index].strMeal}"),
+                      
                 ),
               );
             }));

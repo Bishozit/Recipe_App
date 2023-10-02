@@ -2,11 +2,10 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:food_app/models/mealsmodel.dart';
 
-
 class CustomHttpRequest {
   static Future<dynamic> allMeals() async {
     MealsModel? mealsModel;
-    final url = "https://www.themealdb.com/api/json/v1/1/search.php?f=a";
+    const url = "https://www.themealdb.com/api/json/v1/1/search.php?f=a";
 
     try {
       final response = await http.get(
